@@ -2541,6 +2541,34 @@ define({ "api": [
     "name": "PutApiCustomerUpdateCustomerId"
   },
   {
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "optional": false,
+            "field": "varname1",
+            "description": "<p>No type.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "varname2",
+            "description": "<p>With type.</p>"
+          }
+        ]
+      }
+    },
+    "type": "",
+    "url": "",
+    "version": "0.0.0",
+    "filename": "src/public/apidoc/main.js",
+    "group": "E__work_github_spurtcommerce_api_src_public_apidoc_main_js",
+    "groupTitle": "E__work_github_spurtcommerce_api_src_public_apidoc_main_js",
+    "name": ""
+  },
+  {
     "type": "delete",
     "url": "/api/email-template/delete-email-template/:id",
     "title": "Delete EmailTemplate API",
@@ -8573,34 +8601,6 @@ define({ "api": [
     "filename": "src/api/controllers/ZoneController.ts",
     "groupTitle": "Zone",
     "name": "PutApiZoneUpdateZoneId"
-  },
-  {
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "optional": false,
-            "field": "varname1",
-            "description": "<p>No type.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "varname2",
-            "description": "<p>With type.</p>"
-          }
-        ]
-      }
-    },
-    "type": "",
-    "url": "",
-    "version": "0.0.0",
-    "filename": "src/public/apidoc/main.js",
-    "group": "_home_veerapandi_picco_Documents_communityv1_0_7Aug20_spurtcommerce_community_v1_0_api_src_public_apidoc_main_js",
-    "groupTitle": "_home_veerapandi_picco_Documents_communityv1_0_7Aug20_spurtcommerce_community_v1_0_api_src_public_apidoc_main_js",
-    "name": ""
   },
   {
     "type": "get",

@@ -1,9 +1,9 @@
 import { Connection } from 'typeorm';
-import { Factory, Seed } from 'typeorm-seeding';
+import { Factory, Seeder } from 'typeorm-seeding';
 import { StockStatus } from '../../api/models/stockStatus';
-export class CreateStockStatus implements Seed {
+export class CreateStockStatus implements Seeder {
 
-    public async seed(factory: Factory, connection: Connection): Promise<StockStatus> {
+    public async run(factory: Factory, connection: Connection): Promise<void> {
         const em = connection.createEntityManager();
         const statusData: any = [
             {

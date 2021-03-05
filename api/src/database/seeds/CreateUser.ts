@@ -1,9 +1,9 @@
 import { Connection } from 'typeorm';
-import { Factory, Seed } from 'typeorm-seeding';
+import { Factory, Seeder } from 'typeorm-seeding';
 import { User } from '../../api/models/User';
-export class CreateUser implements Seed {
+export class CreateUser implements Seeder {
 
-    public async seed(factory: Factory, connection: Connection): Promise<User> {
+    public async run(factory: Factory, connection: Connection): Promise<void> {
         const em = connection.createEntityManager();
         const user = new User();
         user.userId = 1;
@@ -11,6 +11,6 @@ export class CreateUser implements Seed {
         user.password = await User.hashPassword('cart123@');
         user.email = 'admin@spurtcart.com';
         user.userGroupId = 1;
-        return await em.save(user);
+        em.save(user);
     }
 }

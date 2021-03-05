@@ -1,9 +1,9 @@
 import { Connection } from 'typeorm';
-import { Factory, Seed } from 'typeorm-seeding';
+import { Factory, Seeder } from 'typeorm-seeding';
 import { EmailTemplate } from '../../api/models/EmailTemplate';
-export class CreateEmailTemplate implements Seed {
+export class CreateEmailTemplate implements Seeder {
 
-    public async seed(factory: Factory, connection: Connection): Promise<EmailTemplate> {
+    public async run(factory: Factory, connection: Connection): Promise<void> {
         const em = connection.createEntityManager();
         const registerData = "Dear {name},<br/><br/> <p style='margin-bottom:.5em; margin: 0 0 10px 0;text-indent: 50px'> Thank you for expressing your interest and registering with Spurtcommerce, the faster roadway for a smarter eCommerce drive.   </p>";
         const fogotPasswordData = "Dear {name},<br/><br/>        <p style='margin-bottom:.5em; margin: 0 0 10px 0;text-indent: 50px'> Your new Password is :  {xxxxxx}  </p>";
