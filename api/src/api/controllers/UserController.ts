@@ -64,8 +64,8 @@ export class UserController {
      */
     @Post('/login')
     public async login(@Body({ validate: true }) loginParam: LoginRequest, @Res() response: any): Promise<any> {
-        console.log(loginParam.username);
-        console.log(loginParam.password);
+        console.log({username:loginParam.username, password: loginParam.password});
+        console.log({password: await User.hashPassword(loginParam.password)}) 
         const user = await this.userService.findOne({
             where: {
                 username: loginParam.username,
