@@ -238,7 +238,7 @@
     .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple),
     .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple,
     .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
-        background: url(../../assets/images/check-min.png) 100% no-repeat;
+        background: url(/images/check-min.png) 100% no-repeat;
         width: 100%;
         background-color: green !important;
     }
@@ -456,7 +456,7 @@ thead {
             }
             input {
                 display: block;
-                background: url(../../assets/img/search-ico.png) 97% no-repeat;
+                background: url(/img/search-ico.png) 97% no-repeat;
                 width: 100%;
                 border-radius: 3px;
                 border: solid thin #ccc;
@@ -755,12 +755,12 @@ thead {
         }
         .search-ico {
             input {
-                background: url(../../assets/img/search-ico.png) 97% no-repeat;
+                background: url(/img/search-ico.png) 97% no-repeat;
             }
         }
         .cal-ico {
             input {
-                background: url(../../assets/img/calender-ico.png) 97% no-repeat;
+                background: url(/img/calender-ico.png) 97% no-repeat;
             }
         }
         .more-filter {
@@ -961,7 +961,7 @@ thead {
                             .search-categories {
                                 padding: 0 10px;
                                 input {
-                                    background: url(../../assets/img/search-left-ico.png) 10px no-repeat;
+                                    background: url(/img/search-left-ico.png) 10px no-repeat;
                                     padding-left: 40px;
                                     padding-top: 1%;
                                 }
@@ -1161,7 +1161,7 @@ thead {
                 width: 320px;
                 input {
                     display: block;
-                    background: url(../../assets/img/search-ico.png) 97% no-repeat;
+                    background: url(/img/search-ico.png) 97% no-repeat;
                     width: 100%;
                     border-radius: 3px;
                     border: solid thin #ccc;
@@ -1388,7 +1388,7 @@ thead {
                 padding: 15px;
                 font-size: $h6-font-size;
                 color: $black-300;
-                background: url(../../assets/img/arrow-right-ico.png) 95% no-repeat;
+                background: url(/img/arrow-right-ico.png) 95% no-repeat;
                 &.active {
                     color: $pink;
                     background: white;
@@ -1636,12 +1636,12 @@ thead {
                         height: 32px;
                         border-radius: 50%;
                         border: solid thin $gray-bbb;
-                        background: url(../../assets/img/lock-ico-green.png) center no-repeat;
+                        background: url(/img/lock-ico-green.png) center no-repeat;
                     }
                 }
                 .logout {
                     &::before {
-                        background: url(../../assets/img/logout-ico-green.png) center no-repeat;
+                        background: url(/img/logout-ico-green.png) center no-repeat;
                     }
                 }
                 .lastlog {
@@ -1671,12 +1671,12 @@ thead {
             .yesterday {
                 .ylastlog {
                     &::before {
-                        background: url(../../assets/img/logout-ico-grey.png) center no-repeat !important;
+                        background: url(/img/logout-ico-grey.png) center no-repeat !important;
                     }
                 }
                 .ylogout {
                     &::before {
-                        background: url(../../assets/img/logout-ico-grey.png) center no-repeat !important;
+                        background: url(/img/logout-ico-grey.png) center no-repeat !important;
                     }
                 }
             }

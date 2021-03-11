@@ -28,7 +28,7 @@ import { AuthEffects } from '../../../../core/admin/auth/effects/auth.effect';
     ReactiveFormsModule,
     FormsModule,
     ToastrModule.forRoot(),
-    EffectsModule.forRoot([AuthEffects])
+    EffectsModule.forFeature([AuthEffects])
   ],
   declarations: [LoginComponent, ForgotPasswordComponent],
   providers: [AuthService, AuthSandbox]

@@ -37,7 +37,7 @@ import { HttpClient } from '@angular/common/http';
     ReactiveFormsModule,
     MaterialModule,
     SeoRouting,
-    EffectsModule.forRoot([SeoEffect])
+    EffectsModule.forFeature([SeoEffect])
   ],
   providers: [SeoSandbox, SeoService],
   bootstrap: [],

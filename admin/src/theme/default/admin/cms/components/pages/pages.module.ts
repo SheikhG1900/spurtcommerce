@@ -39,7 +39,7 @@ import { PagesLayoutComponent } from '../shared/pages-layout/pages-layout.compon
     ReactiveFormsModule,
     MaterialModule,
     PagesRoutingModule,
-    EffectsModule.forRoot([PageEffects]),
+    EffectsModule.forFeature([PageEffects]),
     CKEditorModule
   ],
   providers: [PagesApiclientService, PagesSandbox],

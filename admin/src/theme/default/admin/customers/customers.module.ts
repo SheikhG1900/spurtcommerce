@@ -35,7 +35,7 @@ import { LayoutEffects } from '../../../../core/admin/Customers/layout/effects/l
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
-    EffectsModule.forRoot([LayoutEffects]),
+    EffectsModule.forFeature([LayoutEffects]),
   ],
   providers: [LayoutService, LayoutSandbox],
   bootstrap: [],

@@ -38,7 +38,7 @@ import { CountrySandbox } from '../../../../core/admin/settings/localizations/co
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
-    EffectsModule.forRoot([
+    EffectsModule.forFeature([
       CountryEffect,
       ZoneEffect
     ])

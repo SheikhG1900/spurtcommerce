@@ -58,7 +58,7 @@ import { ComponentsModule } from '../../../shared/components';
     ReactiveFormsModule,
     ProductRoutingModule,
     MaterialModule,
-    EffectsModule.forRoot([MediaEffects]),
+    EffectsModule.forFeature([MediaEffects]),
     CKEditorModule,
     NumberAcceptModule,
     NgbModule

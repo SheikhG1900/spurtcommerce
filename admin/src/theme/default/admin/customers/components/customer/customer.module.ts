@@ -32,7 +32,7 @@ import { MaterialModule } from '../../../../default.material.module';
 import { SelectDropDownModule } from 'ngx-select-dropdown/dist/index';
 import { NumberAcceptModule } from '../../../../../../core/admin/shared/validation-directives/onlyNumber.module';
 import { HttpClient } from '@angular/common/http';
-import { MAT_CHECKBOX_CLICK_ACTION } from '@angular/material';
+import { MAT_CHECKBOX_DEFAULT_OPTIONS, MatCheckboxDefaultOptions  } from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -49,14 +49,13 @@ import { MAT_CHECKBOX_CLICK_ACTION } from '@angular/material';
     MaterialModule,
     CustomerRoutingModule,
     SelectDropDownModule,
-    EffectsModule.forRoot([Customereffects]),
+    EffectsModule.forFeature([Customereffects]),
     NumberAcceptModule
   ],
   providers: [
     CustomersApiClientService,
     CustomerSandbox,
-    { provide: MAT_CHECKBOX_CLICK_ACTION, useValue: 'check' }
-  ],
+    { provide: MAT_CHECKBOX_DEFAULT_OPTIONS, useValue: { clickAction: 'noop' } as MatCheckboxDefaultOptions }  ],
   bootstrap: [],
   entryComponents: []
 })

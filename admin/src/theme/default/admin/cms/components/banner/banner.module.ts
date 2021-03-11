@@ -43,7 +43,7 @@ import { BannerLayoutComponent } from '../shared/banner-layout/banner-layout.com
     ReactiveFormsModule,
     MaterialModule,
     BannerRoutingModule,
-    EffectsModule.forRoot([BannerEffect]),
+    EffectsModule.forFeature([BannerEffect]),
     CKEditorModule
   ],
   providers: [BannerService, BannerSandbox],

@@ -48,7 +48,7 @@ import { ComponentsModule } from '../../../shared/components';
     ReactiveFormsModule,
     MaterialModule,
     OrderRoutingModule,
-    EffectsModule.forRoot([OrdersEffects])
+    EffectsModule.forFeature([OrdersEffects])
   ],
   providers: [OrdersService, OrdersSandbox, OrderstatusSandbox],
   bootstrap: [],

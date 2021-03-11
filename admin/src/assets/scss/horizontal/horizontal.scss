@@ -204,13 +204,15 @@ This is for the horizontal layout
         .sidebar-nav #sidebarnav>.sidebar-item {
             flex: auto;
         }
-    }
-    /****************************
-    This is for the fixed sidebar layout
-    ***************************/
-    &[data-sidebar-position="fixed"] {
-        .left-sidebar {
-            overflow: auto;
+
+        /****************************
+        This is for the fixed sidebar layout
+        ***************************/
+        &[data-sidebar-position="fixed"] {
+            .left-sidebar {
+                overflow: auto;
+            }
         }
     }
+    
 }

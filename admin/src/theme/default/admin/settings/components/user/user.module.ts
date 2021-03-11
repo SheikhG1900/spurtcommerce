@@ -38,7 +38,7 @@ import { HttpClient } from '@angular/common/http';
     ReactiveFormsModule,
     MaterialModule,
     UserRoutingModule,
-    EffectsModule.forRoot([UserEffect])
+    EffectsModule.forFeature([UserEffect])
   ],
   providers: [UserService, UserSandbox],
   bootstrap: [],

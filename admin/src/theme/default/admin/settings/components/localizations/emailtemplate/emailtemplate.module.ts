@@ -35,7 +35,7 @@ import { HttpClient } from '@angular/common/http';
     ReactiveFormsModule,
     MaterialModule,
     EmailTemplateRoutingModule,
-    EffectsModule.forRoot([EmailTempEffect]),
+    EffectsModule.forFeature([EmailTempEffect]),
     CKEditorModule
   ],
   providers: [EmailTempService, EmailTempSandbox],

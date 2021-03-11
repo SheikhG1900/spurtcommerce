@@ -43,7 +43,7 @@ import { ComponentsModule } from '../shared/components';
     ReactiveFormsModule,
     MaterialModule,
     DashboardRoutingModule,
-    EffectsModule.forRoot([DashboardEffects])
+    EffectsModule.forFeature([DashboardEffects])
   ],
   providers: [DashboardService, DashboardSandbox],
   bootstrap: [],

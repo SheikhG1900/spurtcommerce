@@ -37,7 +37,7 @@ import { CKEditorModule } from 'ng2-ckeditor';
     ReactiveFormsModule,
     MaterialModule,
     GenaeralSettingsRoutingModule,
-    EffectsModule.forRoot([GeneralSettingEffect]),
+    EffectsModule.forFeature([GeneralSettingEffect]),
     CKEditorModule
   ],
   providers: [GeneralSettingSandbox, GeneralSettingService],

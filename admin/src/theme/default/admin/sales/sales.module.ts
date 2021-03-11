@@ -41,7 +41,7 @@ import { ComponentsModule } from '../shared/components';
         ComponentsModule,
         FormsModule,
         ReactiveFormsModule,
-        EffectsModule.forRoot([LayoutEffects])
+        EffectsModule.forFeature([LayoutEffects])
     ],
     providers: [
         LayoutService,

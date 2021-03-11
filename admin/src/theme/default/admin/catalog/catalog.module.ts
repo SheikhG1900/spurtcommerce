@@ -43,7 +43,7 @@ import { ProductEffect } from '../../../../core/admin/catalog/product/product-ef
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
-    EffectsModule.forRoot([
+    EffectsModule.forFeature([
       LayoutEffects,
       CategoriesEffect,
       BrandEffects,

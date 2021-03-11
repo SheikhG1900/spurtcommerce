@@ -40,7 +40,7 @@ import { HttpClient } from '@angular/common/http';
     ReactiveFormsModule,
     CategoriesRoutingModule,
     MaterialModule,
-    EffectsModule.forRoot([]),
+    EffectsModule.forFeature([]),
     NumberAcceptModule
   ],
   providers: [CategoriesSandbox],

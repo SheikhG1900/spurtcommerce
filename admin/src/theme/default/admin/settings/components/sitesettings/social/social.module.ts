@@ -36,7 +36,7 @@ import { SocialComponent } from './social.components';
     ReactiveFormsModule,
     MaterialModule,
     SocialRouting,
-    EffectsModule.forRoot([SocialEffect])
+    EffectsModule.forFeature([SocialEffect])
   ],
   providers: [SocialSandbox, SocialService],
   bootstrap: [],

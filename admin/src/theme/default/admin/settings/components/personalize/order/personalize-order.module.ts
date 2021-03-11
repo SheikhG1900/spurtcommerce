@@ -36,7 +36,7 @@ import { PersonalizeOrderEffect } from '../../../../../../../core/admin/settings
     ReactiveFormsModule,
     MaterialModule,
     PersonalizeOrderRouting,
-    EffectsModule.forRoot([PersonalizeOrderEffect])
+    EffectsModule.forFeature([PersonalizeOrderEffect])
   ],
   providers: [PersonalizeOrderSandbox, PerSonalizeOrderService],
   bootstrap: [],

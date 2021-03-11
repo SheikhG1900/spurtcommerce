@@ -37,7 +37,7 @@ import { HttpClient } from '@angular/common/http';
     ReactiveFormsModule,
     MaterialModule,
     PersonalizeProductRouting,
-    EffectsModule.forRoot([PersonalizeProductEffect])
+    EffectsModule.forFeature([PersonalizeProductEffect])
   ],
   providers: [PersonalizeProductSandbox, PerSonalizeProductService],
   bootstrap: [],

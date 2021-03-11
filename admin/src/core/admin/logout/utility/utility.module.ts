@@ -11,7 +11,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 
 @NgModule()
 export class UtilityModule {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<any> {
     return {
       ngModule: UtilityModule,
 

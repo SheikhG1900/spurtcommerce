@@ -38,7 +38,7 @@ import { HttpClient } from '@angular/common/http';
     ReactiveFormsModule,
     MaterialModule,
     RoleRoutingModule,
-    EffectsModule.forRoot([RoleEffects])
+    EffectsModule.forFeature([RoleEffects])
   ],
   providers: [RoleApiClientService, RoleSandbox],
   bootstrap: [],
