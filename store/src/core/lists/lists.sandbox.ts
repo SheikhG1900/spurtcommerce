@@ -174,14 +174,14 @@ export class ListsSandbox {
   ) {
     this.registerEvents();
     this.getSettings();
+
     const params: any = {};
     params.limit = '';
     params.offset = 0;
     params.keyword = '';
-    this.getCountryList(params);
-    params.limit = '';
-    params.offset = '';
     params.count = '';
+
+    this.getCountryList(params);
     this.getZoneList(params);
   }
   public getProductList(params): void {

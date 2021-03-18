@@ -19,7 +19,8 @@ import {
   OnChanges
 } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { MatDialog, MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatDialog } from '@angular/material/dialog';
 import { ProductDialogComponent } from '../../shared/components/products-carousel/product-dialog/product-dialog.component';
 import { ListsSandbox } from '../../../core/lists/lists.sandbox';
 import { ConfigService } from '../../../core/service/config.service';

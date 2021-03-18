@@ -14,7 +14,7 @@ import { Store } from '@ngrx/store';
 import { Subscription } from 'rxjs';
 import * as authAction from './action/product-control.action';
 import * as store from '../state.interface';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import {
   getCartList,
   getCartListCount,

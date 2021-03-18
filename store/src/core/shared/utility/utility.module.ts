@@ -13,7 +13,7 @@ import { ValidationService } from './validation.service';
 
 @NgModule()
 export class UtilityModule {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<any> {
     return {
       ngModule: UtilityModule,
 

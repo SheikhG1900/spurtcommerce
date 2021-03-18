@@ -23,7 +23,8 @@ import {
   FormGroup,
   Validators
 } from '@angular/forms';
-import { MatSnackBar, MatStepper } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatStepper } from '@angular/material/stepper';
 import { emailValidator } from '../../theme/utils/app-validators';
 import { ProductControlSandbox } from '../../../core/product-control/product-control.sandbox';
 import { ListsSandbox } from '../../../core/lists/lists.sandbox';

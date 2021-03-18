@@ -15,7 +15,7 @@ import {
   FormGroup,
   Validators
 } from '@angular/forms';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { emailValidator } from '../../../theme/utils/app-validators';
 import { AuthSandbox } from '../../../../core/auth/auth.sandbox';
 

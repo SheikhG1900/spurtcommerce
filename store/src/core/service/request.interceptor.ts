@@ -16,7 +16,7 @@ import {
 import { throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 import { Router } from '@angular/router';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ConfigService } from './config.service';
 import { Injectable, Inject, PLATFORM_ID } from '@angular/core';

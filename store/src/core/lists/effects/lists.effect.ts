@@ -20,7 +20,7 @@ import { catchError, tap } from 'rxjs/internal/operators';
 import * as actions from './../action/lists.action';
 import { ListsService } from '../lists.service';
 import { Meta, Title } from '@angular/platform-browser';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Injectable()
 export class ListsEffect {

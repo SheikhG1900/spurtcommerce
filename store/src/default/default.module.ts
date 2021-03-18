@@ -13,7 +13,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule, HTTP_INTERCEPTORS, HttpClient} from '@angular/common/http';
 import {NgxSpinnerModule} from 'ngx-spinner';
 import {OverlayContainer, Overlay} from '@angular/cdk/overlay';
-import {MAT_MENU_SCROLL_STRATEGY} from '@angular/material';
+import {MAT_MENU_SCROLL_STRATEGY} from '@angular/material/menu';
 import {CustomOverlayContainer} from './theme/utils/custom-overlay-container';
 import {menuScrollStrategy} from './theme/utils/scroll-strategy';
 import {AppSettings} from './app.settings';

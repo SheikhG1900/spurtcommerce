@@ -18,7 +18,7 @@ import {
   Inject
 } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { ProductControlSandbox } from '../../../../core/product-control/product-control.sandbox';
 import { Router } from '@angular/router';
 import { ListsSandbox } from '../../../../core/lists/lists.sandbox';

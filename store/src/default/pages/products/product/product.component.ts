@@ -17,7 +17,7 @@ import { ProductZoomComponent } from './product-zoom/product-zoom.component';
 import { ListsSandbox } from '../../../../core/lists/lists.sandbox';
 import { ConfigService } from '../../../../core/service/config.service';
 import { Subscription } from 'rxjs';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-product',
